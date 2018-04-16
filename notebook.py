@@ -121,11 +121,12 @@ categorical = ['app', 'device', 'os', 'channel', 'hour']
 
 cvr_columns_lists = [
     ['ip', 'app', 'device', 'os', 'channel'],
-    ['app', 'os'],
-    ['app','channel'],
-    ['app', 'device'],
+    #['app', 'os'],
+    #['app','channel'],
+    #['app', 'device'],
     ['ip','device'],
-    ['ip'], ['os'], ['channel']
+    ['ip']
+    #, ['os'], ['channel']
 ]
 agg_types = ['non_attr_count', 'cvr']
 
