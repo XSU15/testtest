@@ -70,6 +70,7 @@
  'submit_prediction': True,
  'sync_mode': False,
  'test_filter': None,
+ 'test_important_fts': False,
  'test_smoothcvr_cache_from': None,
  'test_smoothcvr_cache_to': None,
  'train': False,
